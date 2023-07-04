@@ -1,0 +1,6 @@
+numba
+numpy==1.21.1
+pandas
+matplotlib
+flask
+flask_bootstrap

@@ -1,0 +1,20 @@
+{% extends "base/upload_success.html" %}
+{% block content %}
+<form method="POST">
+    <label for="title">Insert Value a</label>
+    <br>
+    <input input type="text" name="value_a" id="value_a" value="{{value_a}}"></input>
+    <br>
+
+    <label for="title">Insert Value b</label>
+    <br>
+    <input input type="text" name="value_b" id="value_b" value="{{value_b}}"></input>
+    <br>
+
+    <button id="sub" type='submit'>Submit</button>
+</form>
+
+
+
+<h1>Value out of range. Please try again</h1>
+{% endblock %}

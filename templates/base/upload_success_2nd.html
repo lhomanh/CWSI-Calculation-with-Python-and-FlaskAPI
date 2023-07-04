@@ -1,0 +1,28 @@
+{% extends "base/upload.html" %}
+{% block content %}
+
+<h1 font-size="43px"><b>UPLOAD SUCCESSFUL !</b></h1>
+
+
+<form action="{{url_for('upload_success_2nd')}}", method="POST"> 
+    <label for="title">Insert the start hour value (24-hour scale)</label>
+    <br>
+    <input input type="text" name="start_hour" id="start_hour" value="{{start_hour}}"></input>
+    <br>
+
+    <label for="title">Insert the end hour value (24-hour scale)</label>
+    <br>
+    <input input type="text" name="end_hour" id="end_hour" value="{{end_hour}}"></input>
+    <br>
+
+    <label for="title">Insert the select hour for CWSI value (24-hour scale)</label>
+    <br>
+    <input input type="text" name="select_hour" id="select_hour" value="{{select_hour}}"></input>
+    <br>
+
+    <button id="sub" type='submit'>Submit</button>
+</form>
+
+
+
+{% endblock %}

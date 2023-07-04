@@ -1,0 +1,28 @@
+{% extends "base/upload.html" %}
+{% block content %}
+
+<h1 font-size="43px"><b>UPLOAD SUCCESSFUL !</b></h1>
+
+
+<form action="{{url_for('upload_success')}}", method="POST">
+    <label for="title">Insert the treatment type (available: SWB_40, SWB_65, SWB_90)</label>
+    <br>
+    <input input type="text" name="treatment" id="treatment" value="{{treatment}}"></input>
+    <br>
+
+    <label for="title">Insert the start DOY (min: 173)</label>
+    <br>
+    <input input type="text" name="start_DOY" id="start_DOY" value="{{start_DOY}}"></input>
+    <br>
+
+    <label for="title">Insert the end DOY (max: 266)</label>
+    <br>
+    <input input type="text" name="end_DOY" id="end_DOY" value="{{end_DOY}}"></input>
+    <br>
+
+    <button id="sub" type='submit'>Submit</button>
+</form>
+
+
+
+{% endblock %}

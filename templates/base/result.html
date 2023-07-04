@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+{% extends "base/upload_success_2nd.html" %}
+{% block content %}
+
+
+<h1 font-size="43px"><b>FINISH CALCULATION!</b></h1>
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+        <h1>CWSI coefficient for selected treatment </h1>
+        <img src="/static/result_2pm_cwsi.png" class="center" width="auto" height="auto">
+        </div> 
+
+        <div class="column">
+        <h1>Regression plot </h1>
+        <div><img src="/static/ab_plot.png" class="center" width="auto" height="auto">
+        </div>   
+</div>
+
+
+<button><a href="{{ url_for('upload_success') }}">Back to insert values</a></button>
+
+{% endblock %}
+</body>
+</html>
