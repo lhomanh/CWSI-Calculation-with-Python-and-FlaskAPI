@@ -15,7 +15,7 @@ To install the CWSI calculation library and the Flask API, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/hohadang99/CWSI-calculation-with-Python-and-FlaskAPI.git
+git clone https://github.com/lhomanh/CWSI-Calculation-with-Python-and-FlaskAPI.git
 ```
 
 2. Create a virtual environment (optional but recommended):
