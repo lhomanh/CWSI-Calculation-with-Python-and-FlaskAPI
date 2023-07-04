@@ -10,7 +10,7 @@ This repository contains the Flask application file (main.py), dataset folder (e
 **Introduction :**
 The Crop Water Stress Index (CWSI) is an important indicator used in agricultural research to evaluate water stress in crops. This repository provides a Python library that calculates the CWSI based on preserved data.
 
-**Installation :**
+**Installation :**  
 To install the CWSI calculation library and the Flask API, follow these steps:
 
 1. Clone the repository:
@@ -48,17 +48,22 @@ python app.py
 ```
 
 2. Go to the Flask address in the command line (E.g. http://127.0.0.1:3000) - The result is shown below:   
-![image](https://github.com/hohadang99/CWSI-calculation-with-Python-and-FlaskAPI/assets/40363911/1f016899-80c1-4936-adbc-9395a19e34a1)
+![image](https://github.com/lhomanh/CWSI-Calculation-with-Python-and-FlaskAPI/assets/60242356/64a0e411-ee68-47d9-8cf9-2c2374465660)
+
 
 3. Click on **Upload file** button and upload data file (the "data.xlsx" file in "excel_files" folder):
-![image](https://github.com/hohadang99/CWSI-calculation-with-Python-and-FlaskAPI/assets/40363911/7c57546e-d6b9-45dd-a4aa-f299d6d09ae6)
+![image](https://github.com/lhomanh/CWSI-Calculation-with-Python-and-FlaskAPI/assets/60242356/9a485f61-ccf4-45f1-8004-aa17b8598fe5)
+
 
 4. After upload file, choose treatment type, start DOY and end DOY (DOY: Date of the year):
-![image](https://github.com/hohadang99/CWSI-calculation-with-Python-and-FlaskAPI/assets/40363911/692f710e-052e-4c2a-a8de-0e032b87ecb9)
+![image](https://github.com/lhomanh/CWSI-Calculation-with-Python-and-FlaskAPI/assets/60242356/7d9b0717-b5d2-4566-a89f-181913e74fe6)
+
 
 5. After step 4, choose the start hour, end hour and hour for CWSI value:
-![image](https://github.com/hohadang99/CWSI-calculation-with-Python-and-FlaskAPI/assets/40363911/bfcb0452-c7f0-4136-b406-7261d9b50e12)
+![image](https://github.com/lhomanh/CWSI-Calculation-with-Python-and-FlaskAPI/assets/60242356/adf0373a-2797-421c-aafa-30afa4461331)
+
 
 6. Showing results:
-![image](https://github.com/hohadang99/CWSI-calculation-with-Python-and-FlaskAPI/assets/40363911/6c1f0587-157d-4121-9302-42d77d68be9c)
+![image](https://github.com/lhomanh/CWSI-Calculation-with-Python-and-FlaskAPI/assets/60242356/a1f8e6f9-c515-4681-9df2-4adcf9821a2d)
+
 Click **back to insert value** to start over from step 1
